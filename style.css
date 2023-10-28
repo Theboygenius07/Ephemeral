@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+    /* font-family: 'Pilcrow Rounded', sans-serif; */
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+
+}
+
+
+#nav{
+    position: relative;
+    padding: 2vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+
+#nav a{
+    display: inline-block;
+ text-decoration: none;
+ color: #000;
+ font-size: 14px;
+ font-weight: 600;
+
+}
+
+#nav #centerDiv{
+    font-size: 15px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+#hero{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+   width: 100%;
+   padding: 0 10vw;
+   margin-top:15vw;
+   
+}
+
+#sustain{
+    width: 10vw;
+}
+#sustain p{
+    font-weight: 600;
+    opacity: .5;
+   font-size: 13px;
+   margin: 10px 0;
+   text-transform: capitalize;
+}
+
+#sustain #susimagewrapper{
+    position: relative;
+    width: 100%;
+    height: 15vw;
+    overflow: hidden;
+}
+#susimagewrapper img{
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephemeral{
+    position: relative;
+    width: 30vw;
+    min-height: 42vw;
+    
+}
+#ephemeral #headings {
+   position: absolute;
+   top: -22%;
+   left: -20%;
+}
+#imagentext{
+    width: fit-content;
+    height: fit-content;
+}
+#ephemeral img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+#ephemeral p {
+/* position: absolute; */
+font-size: 1.3vw;
+/* top: 105%; */
+line-height: 1.3;
+letter-spacing: -.07vw;
+width: 40%;
+font-weight: 500;
+margin-top: 25px;
+}
+
+
+#ephemeral h1{
+   font-size: 6vw;
+   font-weight: 400;
+   letter-spacing: -.5vw;
+   line-height: 1;
+}
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#circlev{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #5e5e5e;
+    border-radius: 50%;
+}
+#circlev i{
+  color: #5e5e5e;
+}
+#visit h3{
+    font-weight: 400;
+    color: #5e5e5e;  
+}
+#motive{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+#motive p{
+   font-size: 2.1vw;
+   width: 85%;
+  text-align: right; 
+  position: relative;
+  right: 0;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: -.12vw;
+ 
+}
+#motive span{
+  display: inline-block;
+  border-radius: 100px;
+  margin: 0 13px;
+  margin-bottom: -13.5px;
+}
+
+ #one{
+    width: 80px;
+    height: 50px;
+    background-image: url(bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+#two{
+    width: 130px;
+    height: 60px;
+    background-image: url(shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+
+#three{
+    width: 80px;
+    height: 50px;
+    background-image: url(grass.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+
+#pictures{
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#firstpic{
+    width: 17vw;   
+}
+
+#firstpic #picimg{
+width: 100%;
+height: 24vw;
+margin-bottom: 1vw;
+
+}
+
+#firstpic h1, #secpic h1{
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    font-size: 2vw;
+ } 
+
+#firstpic p, #secpic p{
+    opacity: .8;
+   font-size: 14px;
+   margin-top: 10px;
+   letter-spacing: -.05vw;
+   line-height: 1;
+}
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#secpic{
+    width: 25vw; 
+    display: flex;
+    flex-direction: column;  
+    align-items: end;
+}
+
+#secpic #picimg{
+    width: 100%;
+    height: 37vw;
+    margin-bottom: 1vw;
+    
+}
+
+#secpic p{
+    width: 50%;
+    text-align: right;
+}
+
+#banner{
+    width: 100%;
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+}
+
+#bimg{
+    width: 65%;
+    height: 60vh;
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-position: 0% 68%;
+    object-fit: cover;
+}
+
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+
+#btext h1{
+font-size: 2.8vw;
+font-weight: 500;
+letter-spacing: -.15vw;
+line-height: 1;
+
+}
+
+#btext p{
+margin-top: 20px;
+width: 60%;
+}
+
+#future{
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+#future video{
+    opacity: 0;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 99999;
+    background: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 1vw 2vw;
+    border-radius: 10px;
+  
+    
+}
+
+#ftext button{
+    padding: .8vw 1.7vw;
+    font-size: .7vw;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 100px;
+    background: transparent; 
+    backdrop-filter: blur(10px);
+    border: 1px solid;
+    color: #6f6f6f;
+    cursor: pointer;
+}
+
